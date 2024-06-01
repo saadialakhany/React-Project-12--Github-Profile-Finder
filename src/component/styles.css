@@ -1,0 +1,35 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.main {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main input {
+  width: 300px;
+  height: 25px;
+  font-size: 18px;
+  padding: 5px;
+}
+.main button {
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+}
+.profile--container img {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgb(98, 96, 96, 0.6);
+  margin-bottom: 20px;
+}
+.profile--container span {
+  color: red;
+  font-size: 20px;
+}
+.profile--container a {
+  text-transform: capitalize;
+  color: blue;
+}
